@@ -1,3 +1,50 @@
 body{
-    background-color: dodgerblue;
+    background-color: #E5EFF5;
+    width: 1440px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
   }
+
+.square{
+  background: white;
+  border-radius: 1%;
+  width: 90vh;
+  height: 65vh;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+
+.top-text{
+  color: #2AB2AF;
+  margin-top: 2.5em;
+  margin-left: 1.7em;
+  font-weight: 700;
+}
+
+.sub-top-text{
+  color: #C0DF34;
+  margin-top: 2em;
+  margin-left: 2.5em;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+
+.mid-top-text{
+  color: #c2c8ce;
+  margin-top: 0.7em;
+  margin-bottom: 0em;
+  margin-left: 2.5em;
+  margin-right: 1em;
+  font-style: bold;
+}
+
+.sqr-bottom-left{
+  background: #2AB2AF;
+  width: 45vh;
+  height:32.5vh;
+}
