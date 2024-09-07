@@ -7,75 +7,78 @@ body{
   }
 
 .square{
+  position:absolute;
   background: white;
   border-radius: 1%;
-  width: 90vh;
-  height: 65vh;
+  width: 720px;
+  height: 460px;
   font-size: 16px;
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-style: normal;
   box-shadow: 0 60px 100px rgba(0, 0, 0, 0.168);
+  overflow: hidden;
 
 }
 
 .top-text{
   color: #2AB2AF;
-  margin-top: 1.8em;
-  margin-left: 1.7em;
+  margin-top: 6%;
+  margin-left: 6.5%;
   font-weight: 700;
 }
 
 .sub-top-text{
   color: #C0DF34;
-  margin-top: 1.5em;
-  margin-left: 2.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1.5%;
+  margin-left: 6.5%;
+  margin-bottom: 1.8%;
   font-weight: 700;
 }
 
 .mid-top-text{
   color: #c2c8ce;
-  margin-top: 0.7em;
-  margin-bottom: 0em;
-  margin-left: 2.5em;
-  margin-right: 1em;
+  margin-top: 0.4%;
+  margin-bottom: 0%;
+  margin-left: 6.5%;
+  margin-right: 1%;
   font-style: bold;
 }
 
 .sqr-bottom-left{
   position: relative;
-  top: 2.6vh;
-  width: 45vh;
-  height:32.5vh;
+  right:0%;
+  top: 4%;
+  width: 50%;
+  height:50%;
 }
 
 .sqr-bottom-left .top-bl-text{
   position: relative;
   color: #ffffff;
-  top: 2.5em;
-  margin-left: 2.5em;
-  margin-bottom: 1.5em;
+  top: 19%;
+  margin-left: 11%;
+  margin-bottom: 1.5%;
   font-weight: 700;
 }
 
 .sqr-bottom-left .sub-bl-text{
   position: relative;
   color: #ffffff;
-  top: 1.2em;
-  margin-left: 1.1em;
-  margin-bottom: 1.5em;
+  top: 17%;
+  margin-left: 11%;
+  margin-bottom: 13%;
   font-weight: 700;
 }
 
 .sqr-bottom-left .sub-bl-text-rght{
   position: relative;
   color: #ffffff;
-  top: -2.8em;
-  left: 3.7em;
+  bottom: 6.1vh;
+  left: 14.5%;
   font-size: 0.48em;
-  margin-left: 1.1em;
-  margin-bottom: 1.5em;
+  margin-left: 12.1%;
+  margin-bottom: 3%;
   font-weight: 100;
 }
 .sqr-bottom-left button{
@@ -83,10 +86,10 @@ body{
   position: relative;
   color: #ffffff;
   background: #C0DF34;
-  top: -2em;
-  left: 2.8em;
-  height:6.5vh;
-  width: 34.1vh;
+  top: -13%;
+  left: 12%;
+  height:20%;
+  width: 77%;
   border: 1px solid #C0DF34;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.168);
@@ -99,10 +102,10 @@ body{
 .sqr-bottom-left .bottom-bl-text{
   position: relative;
   color: #ffffff;
-  top: -2.2em;
-  left: 1.2em;
-  margin-left: 1.1em;
-  margin-bottom: 1.5em;
+  top: -16%;
+  left: 5.5%;
+  margin-left: 5.7%;
+  margin-bottom: 8%;
   font-weight: 400;
 }
 
@@ -110,8 +113,8 @@ body{
   position: relative;
   background: #2AB2AF;
   margin-bottom: 0%;
-  width: 45vh;
-  height:31.5vh;
+  width: 100%;
+  height:97%;
 }
 
 .sqr-bottom-left .sqr-bottom-left-down{
@@ -120,50 +123,50 @@ body{
   margin-top: 0%;
   border-radius: 5px;
   background: #2AB2AF;
-  width: 45vh;
-  height:7.6vh;
+  width: 100%;
+  height:23.3%;
 }
 
 .sqr-bottom-right{
   position: relative;
-  left:45vh;
-  top: -29.9vh;
-  width: 45vh;
-  height:32.5vh;
+  left:50%;
+  top: -46%;
+  width: 50%;
+  height:50%;
 }
 
 .sqr-bottom-right .sqr-bottom-right-up{
   position: relative;
-  top: -3.1vh;
+  top: -9.5%;
   background: #4fd0bb;
   margin-bottom: 0%;
-  width: 45vh;
-  height:31.5vh;
+  width: 100%;
+  height:97%;
 }
 
 .sqr-bottom-right h4{
   position: relative;
   color: #ffffff;
-  top: 2.2em;
-  left: 1.2em;
-  margin-left: 1.1em;
-  margin-bottom: 1.5em;
+  top: 18.5%;
+  left: 1.5%;
+  margin-left: 11%;
+  margin-bottom: 9%;
   font-weight: 700;
 }
 
 .mid-br-text{
   z-index: 200;
   position: relative;
-  top: 4vh;
-  left: 1vh;
+  top: 13%;
+  left: 1.5%;
   color: #ffffff;
-  margin-top: 0.7em;
-  font-size: 0.8em;
-  margin-bottom: 0em;
-  margin-left: 2.5em;
-  margin-right: 1em;
+  margin-top: 0.7%;
+  font-size: 80%;
+  margin-bottom: 0%;
+  margin-left: 11%;
+  margin-right: 1%;
   font-weight: 300;
-  line-height: 2.8vh;
+  line-height: 160%;
 }
 
 .sqr-bottom-right .sqr-bottom-right-down{
@@ -172,18 +175,18 @@ body{
   margin-top: 0%;
   border-radius: 5px;
   background: #4fd0bb;
-  width: 45vh;
-  height:7.5vh;
+  width: 100%;
+  height: 23.2%;
 }
 
 .sqr-bottom-right .sqr-bottom-right-down-left{
   position: relative;
-  z-index: 1000;
+  z-index: 2;
   top: -35.1%;
   margin-top: 0%;
   background: #4fd0bb;
-  width: 10vh;
-  height:7.5vh;
+  width: 30.1%;
+  height:23%;
 }
 
 .sqr-bottom-left .sqr-bottom-left-down-right{
@@ -193,6 +196,6 @@ body{
   left: 77.9%;
   margin-top: 0%;
   background: #2AB2AF;
-  width: 10vh;
-  height:5.1vh;
+  width: 30%;
+  height:67.1%;
 }
